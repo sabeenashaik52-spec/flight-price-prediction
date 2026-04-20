@@ -1,1 +1,1 @@
-Flight Price Prediction ML Project
+Flight Price Prediction ML  Regression Project
