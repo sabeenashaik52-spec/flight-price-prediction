@@ -1,9 +1,10 @@
 import streamlit as st
 import pickle
+from joblib import load
 import pandas as pd
 
 
-model = pickle.load(open('rf_model.pkl', 'rb'))
+model = load('rf_model.pkl')
 columns = pickle.load(open('columns.pkl', 'rb'))
 
 
